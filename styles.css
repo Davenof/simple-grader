@@ -1,0 +1,55 @@
+main {
+    width: 100%;
+    margin: auto;
+}
+
+/* Form Sections */
+form section div {
+    display: grid;
+    grid-template-columns: 500px 20px;
+}
+
+/* Tab Content Subsections */
+.subsection div {
+    margin-bottom: 15px;
+}
+
+.subsection div label {
+    margin-right: 15px;
+}
+
+/* Score Display */
+.score-display {
+    background-color: #000;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3em;;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/* Reset Button */
+.reset {
+    border-radius: 5px;
+    padding: 2px 7px 4px;
+}
+
+.reset:active {
+    transform: translateY(1px);
+}
+
+/* Student's Feedback */
+.text {
+    display: none;
+}
+
+/* Copy Buttons */
+.copy {
+    border: solid 1px #d7d7d7;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.copy:active {
+    transform: translateY(2px);
+}
